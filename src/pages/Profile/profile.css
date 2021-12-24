@@ -1,0 +1,101 @@
+.profileWrapper {
+    display: flex;
+}
+
+.rightContainer {
+    flex: 12;
+}
+
+.imageCover {
+    width: 100%;
+    height: 320px;
+    position: relative;
+}
+
+.bgCoverImg {
+    width: 100%;
+    height: 250px;
+    /* object-fit: cover; */
+}
+
+.floatingImage {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 150px;
+    border: 3px solid #fff;
+}
+
+.profileInfo {
+    text-align: center;
+}
+
+.profileName {
+    font-size: 24px;
+}
+
+.profileGreet {
+    font-weight: 300;
+}
+
+.bottomRightContainer {
+    display: flex;
+    padding: 20px;
+}
+
+.profileInfoTitle {
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.userInfo {
+    font-size: 14px;
+    color: grey;
+    margin-bottom: 10px;
+}
+
+.profilekey {
+    font-weight: 700;
+}
+
+.profilevalue {
+    font-weight: 300;
+    margin-left: 10px;
+}
+
+.userFriend {
+    margin-top: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.friendsImg {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 5px;
+    row-gap: 10px;
+}
+
+.friendInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.userFriendImg {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.userFriendName {
+    font-size: 14px;
+}
+
+.onlineFriendName {
+    text-align: center;
+}

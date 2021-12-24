@@ -1,0 +1,115 @@
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: #4267B2;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.headerWrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    padding: 10px;
+}
+
+.logo {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.inputSearch {
+    flex: 4;
+    position: relative;
+    padding-right: 20px;
+}
+
+.searchIcon {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    /* font-size: 14px !important; */
+}
+
+.search {
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px 10px 10px 25px;
+    border: none;
+}
+
+.search:focus {
+    outline: none;
+}
+
+.headerRight {
+    flex: 4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoText {
+    font-size: 30px;
+    color: #fff;
+}
+
+/* .option {
+    margin-left: 10px;
+} */
+
+.homepage, .timeline {
+    font-size: 14px;
+    margin-left: 5px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.homepage:hover {
+    background-color: #fff;
+    color: #4267B2;
+}
+
+.timeline:hover {
+    background-color: #fff;
+    color: #4267B2;
+}
+
+.iconsContainer {
+    display: flex;
+    /* margin-left: 10px; */
+}
+
+.iconItem {
+    position: relative;
+    margin-left: 20px;
+}
+
+.count {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: red;
+    color: #fff;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -8px;
+    left: 10px;
+}
+
+.profileImage {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
