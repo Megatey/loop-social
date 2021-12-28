@@ -50,3 +50,13 @@
     font-weight: 500;
     cursor: pointer;
 }
+
+@media screen and (max-width: 872px) {
+    .rightbar {
+        display: none;
+    }
+
+
+
+
+}

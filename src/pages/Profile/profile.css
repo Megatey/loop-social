@@ -99,3 +99,22 @@
 .onlineFriendName {
     text-align: center;
 }
+
+.responsive-bottom-right {
+    display: none;
+}
+
+@media screen and (max-width: 872px) {
+    .bottomRightContainer {
+        display: none;
+    }
+
+    .responsive-bottom-right {
+        display: block;
+        padding: 10px;
+    }
+
+
+
+
+}

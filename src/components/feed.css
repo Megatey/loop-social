@@ -2,3 +2,13 @@
     flex: 5.5;
     padding: 10px;
 }
+
+@media screen and (max-width: 872px) {
+    .feed {
+        padding-left: 30px;
+    }
+
+
+
+
+}

@@ -42,7 +42,7 @@ const SignUp = () => {
                 <div className="centeredContainer">
                     <div className="appName_Motto_Container">
                         <h3 className="appName">Loopsocial</h3>
-                        <p className="motto">Connect with friends and world around you on Loopsocial</p>
+                        <p className="motto">Connect with friends and world around you on Loopsocial.</p>
                         <Link to="/homepage" style={{textDecoration:"none", color:"inherit"}}> <button className="login_button">Go To HomePage</button> </Link>
                     </div>
                     <form onSubmit={submitHandler} className="formContainer">

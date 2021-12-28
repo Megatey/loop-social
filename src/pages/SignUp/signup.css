@@ -85,3 +85,35 @@
     cursor: pointer;
     margin-top: 20px;
 }
+
+@media screen and (max-width: 872px) {
+
+    .centeredContainer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .appName {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .appName_Motto_Container {
+        width: 100%;
+    }
+
+    .motto {
+        font-size: 20px;
+    }
+
+    .formContainer {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+
+
+}
