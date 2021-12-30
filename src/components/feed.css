@@ -1,10 +1,12 @@
 .feed {
+    width: 100%;
     flex: 5.5;
     padding: 10px;
 }
 
 @media screen and (max-width: 872px) {
     .feed {
+        max-width: 100%;
         padding-left: 30px;
     }
 

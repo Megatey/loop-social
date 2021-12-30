@@ -5,7 +5,7 @@ import Feed from '../../components/Feed'
 import Rightbar from '../../components/Rightbar'
 const Home = () => {
     return (
-        <div>
+        <div className="home">
             <Header/>
             <div className="center">
                 <Leftbar/>
