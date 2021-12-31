@@ -5,6 +5,8 @@
 }
 
 body {
+  width: 100% !important;
+  /* background-color: rgba(0, 0, 255, 0.575); */
   margin: 0;
   font-family: 'Roboto', sans-serif;
 }

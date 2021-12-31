@@ -6,7 +6,7 @@
 
 @media screen and (max-width: 872px) {
     .feed {
-        max-width: 100%;
+        width: 100%;
         padding-left: 30px;
     }
 

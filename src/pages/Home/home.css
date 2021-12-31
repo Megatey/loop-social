@@ -1,5 +1,8 @@
 .home {
-    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+    box-sizing: border-box;
 }
 
 .center {
@@ -10,7 +13,9 @@
 
 @media screen and (max-width: 872px) {
     .center {
+        width: 100%;
         max-width: 100%;
+        box-sizing: border-box;
     }
 
 
