@@ -1,5 +1,5 @@
 import './signup.css'
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 const SignUp = () => {
     const userDetail = {
@@ -33,9 +33,6 @@ const SignUp = () => {
         e.preventDefault()
     }
 
-    useEffect(() => {
-        alert(`This is a desktop view only dummy site, built for showcasing my skills in mapping of array, ui design, post API. Enjoy browsing through it!!`)
-    }, [])
     return (
         <div className="signup">
             <div className="signupWrapper">
