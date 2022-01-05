@@ -137,7 +137,6 @@
         padding: 10px;
         position: fixed;
         background-color: #4267B2;
-        /* top: 0; */
     }
 
 
@@ -184,6 +183,21 @@
         position: fixed;
         top: 0;
         z-index: -5;
+    }
+
+    .nav-homepage:hover {
+        background-color: #fff;
+        color: #4267B2;
+    }
+    
+    .nav-profile:hover {
+        background-color: #fff;
+        color: #4267B2;
+    }
+    
+    .nav-signup:hover {
+        background-color: #fff;
+        color: #4267B2;
     }
 
 
