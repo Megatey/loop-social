@@ -43,7 +43,9 @@ const Header = () => {
             </div>
 
             <div className="responsive-header-Wrapper">
-                <div className="bar-logo" onClick={navChangeHandler}>Bar</div>
+                <div className="bar-logo" onClick={navChangeHandler}>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#fff" viewBox="0 0 24 24"><path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"/></svg>
+                </div>
                 <div className="responsive-logo"><h3 className="logoText">Loopsocial</h3></div>
                 <div className="imgContainer">
                     <img src="photos/myphoto.jpg" alt="myImg" className="profileImage" />
@@ -56,6 +58,8 @@ const Header = () => {
                     <Link to="/" style={{ textDecoration: "none", color: "inherit" }}><p className="nav-signup">SignUp</p></Link>
                 </div>
             </div> }
+
+            { toggle && <div className="dim-theme" onClick={() => setToggle(false)}></div>}
         </div>
     )
 }
